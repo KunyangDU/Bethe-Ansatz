@@ -55,8 +55,10 @@ and the energy $E-E_A$ can be derived as one did in calculating $E_A$.
 ![AFM_spectrum](mdfig/AFM-spectrum-1,1.png "AFM triplet spectrum")
 ### Magnetic response
 A ferromegnetic-paramagnetic transition exists in AFMH in magnetic field, i.e.,
+
 $$H = J\sum_{\langle i,j \rangle} \mathbf{S}_i\cdot \mathbf{S}_j - hS_T^z$$
-with $h$ increasing, the average magnetization $m^z=S_T^z/N$ goes up til saturation value $m_s^z=1/2$.
+
+With $h$ increasing, the groundstate average magnetization $m^z=S_T^z/N$ goes up til saturation value $m_s^z=1/2$.
 ![AFM_response](mdfig/AFM-magnetization.png "AFM magnetic response")
 ## TODO
 - Spinon singlet dispersion.
