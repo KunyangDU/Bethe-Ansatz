@@ -33,7 +33,7 @@ where $0\leq \lambda_1\leq\lambda_2\leq N-1,\theta\in[0,2\pi]$. The solution can
 $$E-E_F = \frac{J}{2}(1-\cos k)$$
 ![FM_spectrum](mdfig/FM_spectrum_N=32.png "FM spectrum")
 
-## AFM Heisenberg chain
+## AFMH chain
 ### Ground state
 The AFM groundstate can be derived from $\ket{F}$ with adding $r = N/2$ magnons. The resulting equation is 
 $$k_i = \pi - \phi(z_i),\quad N\phi(z_i) = 2\pi I_i + \sum_{j\neq i}\phi\left(\frac{z_i - z_j}{2}\right),\quad i = 1,2,\cdots,r$$
