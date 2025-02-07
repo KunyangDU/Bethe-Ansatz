@@ -29,6 +29,7 @@ where $0\leq \lambda_1\leq\lambda_2\leq N-1,\theta\in[0,2\pi]$. The solution can
 - $C_1$ for $\lambda_1=0$ (real $k_l$): with dispersion exactly the single magnon one. 
 - $C_2$ for $\Delta \lambda \geq 2$ (real $k_l$): with continuous dispersion between $J(1\pm \cos k/2)$.
 - $C_3$ for $\Delta \lambda \leq 1$ (complex $k_l$): 2 magnon bound state with dispersion 
+
 $$E-E_F = \frac{J}{2}(1-\cos k)$$
 ![FM_spectrum](mdfig/FM_spectrum_N=32.png "FM spectrum")
 
