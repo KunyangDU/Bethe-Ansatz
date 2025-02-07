@@ -31,6 +31,7 @@ where $0\leq \lambda_1\leq\lambda_2\leq N-1,\theta\in[0,2\pi]$. The solution can
 - $C_3$ for $\Delta \lambda \leq 1$ (complex $k_l$): 2 magnon bound state with dispersion 
 
 $$E-E_F = \frac{J}{2}(1-\cos k)$$
+
 ![FM_spectrum](mdfig/FM_spectrum_N=32.png "FM spectrum")
 
 ## AFMH chain
