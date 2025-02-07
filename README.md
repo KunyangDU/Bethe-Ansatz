@@ -33,7 +33,7 @@ which can be claasified into 3 classes:
 $$
 E-E_F = \frac{J}{2}(1-\cos k)
 $$
-![FM_spectrum](mfig//FM_spectrum_N=32.png "FM spectrum")
+![FM_spectrum](mdfig/FM_spectrum_N=32.png "FM spectrum")
 
 ## AFM Heisenberg chain
 ### Ground state
@@ -42,14 +42,14 @@ $$
 
 $$
 ### Excitation spectrum
-![AFM_spectrum](mfig//AFM-spectrum-1,1.png "AFM triplet spectrum")
+![AFM_spectrum](mdfig/AFM-spectrum-1,1.png "AFM triplet spectrum")
 ### Magnetic response
 A ferromegnetic-paramagnetic transition exists in AFMH in magnetic field, i.e.,
 $$
 H = J\sum_{\langle i,j \rangle} \bold{S}_i\cdot \bold{S}_j - hS_T^z
 $$
 with $h$ increasing, the average magnetization $m^z=S_T^z/N$ goes up til saturation value $m_s^z=1/2$.
-![AFM_response](mfig//AFM-magnetization.png "AFM magnetic response")
+![AFM_response](mdfig/AFM-magnetization.png "AFM magnetic response")
 ## TODO
 - Spinon singlet dispersion.
 - Collective multi spinon excitation.
