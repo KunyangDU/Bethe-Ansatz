@@ -1,1 +1,4 @@
-/figures
+*.DS_Store
+.vscode/
+Manifest.toml
+
