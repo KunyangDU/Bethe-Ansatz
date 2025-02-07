@@ -3,7 +3,7 @@ using LinearAlgebra,NLsolve,LaTeXStrings,CairoMakie
 include("AFM.jl")
 
 N = 32
-figsize = (width = 300,height = 200)
+figsize = (width = 450,height = 250)
 lsr = 1:div(N,2)
 lsSt = N/2 .- lsr
 lsh = range(0,2,100)

@@ -19,9 +19,9 @@ where we have used the $U(1)$ symmetry by seting z-axis spin conserved (thus we 
 With given GS $\ket{F}$, the excitation spectrum can be obtained by several spin flip peration, i.e., adding several magnons.
 
 Single magnon dispersion is 
-$$
+\[
 E-E_F = J \cdot (1 - \cos k),\quad k=\frac{2\pi}{N}m,m=0,1,\cdots,N-1
-$$
+]\
 2 magnons dispersion can be derived from
 $$
 

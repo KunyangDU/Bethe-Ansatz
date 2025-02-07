@@ -21,22 +21,22 @@ for i in 1:div(N,2)+1, j in i+1:div(N,2)+1
     push!(qs,q)
 end
 
-figsize = (width = 400,height = 200)
+figsize = (width = 450,height = 200)
 
 fig = Figure()
 ax= Axis(fig[1,1];figsize...,
 title = "Spinon spectrum, N=$N Heisenberg chain",
 xlabel = L"q\ /\ \pi",
 ylabel = L"(E-E_A)/J")
-xlims!(ax,0,1)
+#xlims!(ax,0,1)
 ylims!(ax,-0.1,pi+0.1)
 
-t = range(0,1,101)
+t = range(0,2,101)
 lines!(ax,t,@. abs(sin(pi*t))*pi/2;color = :black)
 lines!(ax,t,@. abs(sin(pi*t/2))*pi;color = :black)
 scatter!(ax, 1,E1-E0;strokewidth = 2,strokecolor = :red,markersize = 14,label = L"\mathrm{GS\ of}\ r = N/2-1",color = :white)
 scatter!(ax,qs / pi,Es;label=L"\mathrm{Triplet},\ (1,1)")
-axislegend(ax,position = :lt)
+Legend(fig[1,2],ax)
 resize_to_layout!(fig)
 display(fig)
 
