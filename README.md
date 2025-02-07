@@ -1,10 +1,9 @@
 # Bethe-Ansatz
 Personal repository for realization of Bethe Ansatz, epsecially on Heisenberg chain with given Hamiltonian
-$$H = sJ\sum_{\langle i,j \rangle} \mathbf{S}_i\cdot \mathbf{S}_j$$
-where $s = -1$ for ferromagnetic Heisenberg (FMH) model and $s=+1$ for antiferromagnetic one (AFMH).
 
-The main reference of this work is [Intoduction to Bethe Ansatz](
-https://doi.org/10.48550/arXiv.cond-mat/9809162).
+$$H = sJ\sum_{\langle i,j \rangle} \mathbf{S}_i\cdot \mathbf{S}_j$$
+
+where $s = -1$ for ferromagnetic Heisenberg (FMH) model and $s=+1$ for antiferromagnetic one (AFMH).
 ## FMH chain
 ### Ground state
 The ground state of FMH is quite easy, for the nearest neighor spin $\mathbf{S}_i$ being simply parallel, i.e.
@@ -65,5 +64,6 @@ With $h$ increasing, the groundstate average magnetization $m^z=S_T^z/N$ goes up
 - Collective multi spinon excitation.
 
 ## Acknowledgments
-The following packages has been used:
 - [NLsolve.jl](https://github.com/JuliaNLSolvers/NLsolve.jl.git): for solving nonlinear equations.
+- [Intoduction to Bethe Ansatz](
+https://doi.org/10.48550/arXiv.cond-mat/9809162): The main reference of this work.
