@@ -6,7 +6,7 @@ N = 32
 
 I0s = getIs(N)
 E0 = sum(ϵ.( getzs(N,I0s)[1]))
-
+E1 = sum(ϵ.( getzs(N,getIs(N,div(N,2)-1))[1]))
 qs = []
 Es = []
 
@@ -25,18 +25,18 @@ figsize = (width = 400,height = 200)
 
 fig = Figure()
 ax= Axis(fig[1,1];figsize...,
-title = "Triplet Spinon spectrum, N=$N Heisenberg chain",
+title = "Spinon spectrum, N=$N Heisenberg chain",
 xlabel = L"q\ /\ \pi",
-ylabel = L"(E-E_A)/JN")
-
+ylabel = L"(E-E_A)/J")
+xlims!(ax,0,1)
 ylims!(ax,-0.1,pi+0.1)
 
-t = range(0,2,101)
+t = range(0,1,101)
 lines!(ax,t,@. abs(sin(pi*t))*pi/2;color = :black)
 lines!(ax,t,@. abs(sin(pi*t/2))*pi;color = :black)
-
-scatter!(ax,qs / pi,Es)
-
+scatter!(ax, 1,E1-E0;strokewidth = 2,strokecolor = :red,markersize = 14,label = L"\mathrm{GS\ of}\ r = N/2-1",color = :white)
+scatter!(ax,qs / pi,Es;label=L"\mathrm{Triplet},\ (1,1)")
+axislegend(ax,position = :lt)
 resize_to_layout!(fig)
 display(fig)
 
