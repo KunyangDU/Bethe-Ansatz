@@ -45,6 +45,16 @@ $$I_i = \frac{1}{2}\left(S_T^z - 1 + 2i - \frac{N}{2}\right),\quad i=1,2,\cdots,
 for the groundstate with given $U(1)$ number $S_T^z = N/2-r$. The GS $\ket{A}$ satisfys $S_T^z = 0$ and energy $E_A$ can be calculated by
 
 $$E - E_F = J\sum_{i=1}^r \epsilon(z_i),\quad k=\pi r-\frac{2\pi}{N}\sum_{i=1}^r I_i$$
+
+The GS energy is 
+| N    | Iterations        | $E_A$               | CPU-time  |
+|------|-------------------|--------------------|-----------|
+| 16   | 47                | -0.6963935225385488 | 0.0001s    |
+| 64   | 102               | -0.6933484591461386 | 0.0011s    |
+| 256  | 232               | -0.6931597433664457 | 0.0353s    |
+| 1024 | 569               | -0.6931479653762419 | 1.3021s    |
+| 4096 | 1452              | -0.6931472296003496 | 53.5841s   |
+|$+\infty$|--              | -0.6931471805599453 | --         |
 ### Spinon Excitation
 Spinon excitation can be derived from $\ket{A}$ by annihilating 1 magnon, i.e., creating 2 spinons. 
 
