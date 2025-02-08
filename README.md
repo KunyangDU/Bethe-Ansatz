@@ -46,7 +46,8 @@ for the groundstate with given $U(1)$ number $S_T^z = N/2-r$. The GS $\ket{A}$ s
 
 $$E - E_F = J\sum_{i=1}^r \epsilon(z_i),\quad k=\pi r-\frac{2\pi}{N}\sum_{i=1}^r I_i$$
 
-The GS energy is 
+The GS energy (calculated on a M4 pro) is
+
 | N    | Iterations        | $E_A$               | CPU-time  |
 |------|-------------------|--------------------|-----------|
 | 16   | 47                | -0.6963935225385488 | 0.0001s    |
@@ -55,6 +56,8 @@ The GS energy is
 | 1024 | 569               | -0.6931479653762419 | 1.3021s    |
 | 4096 | 1452              | -0.6931472296003496 | 53.5841s   |
 |$+\infty$|--              | -0.6931471805599453 | --         |
+
+$E_A = -\ln 2$ in thermodynamic limit.
 ### Spinon Excitation
 Spinon excitation can be derived from $\ket{A}$ by annihilating 1 magnon, i.e., creating 2 spinons. 
 
